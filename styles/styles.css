@@ -843,10 +843,13 @@ body {
 }
 
 .select-hotel-rating{
-  display: grid;
-  grid-template-columns: 155px 155px;
+  display: flex;
 }
 
+.select-hotel-rating-star{
+  margin-top: 25px;
+  
+}
 
 .button-first {
   background-color: #756157;
