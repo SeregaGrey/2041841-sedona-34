@@ -83,7 +83,8 @@ body {
   border-radius: 4px;
 }
 
-.button-here:hover {
+.button-here:hover,
+.button-here:focus {
   background-color: #615048;
 }
 
@@ -197,7 +198,8 @@ body {
 
 .lines-img {
   display: block;
-  padding-bottom: 0 auto;
+  margin: 0 auto;
+  padding-bottom: 0;
 }
 
 .clarification-city {
@@ -515,7 +517,8 @@ body {
   border-radius: 4px;
 }
 
-.button-search-hotel:hover {
+.button-search-hotel:hover,
+.button-search-hotel:focus {
   background-color: #615048;
 }
 
@@ -556,7 +559,8 @@ body {
   border-radius: 0px 10px 10px 0px;
 }
 
-.newsletter-button:hover {
+.newsletter-button:hover,
+.newsletter-button:focus {
   background-color: #68A2CA;
   border: solid #68A2CA;
 }
@@ -602,11 +606,16 @@ body {
 }
 
 .footer-social-item {
+  image-orientation: url(..images/vk.svg);
+  image-orientation: url(..images/telegram.svg);
+  image-orientation: url(..images/youtube.svg);
+  color: #83B3D3;
   text-align: left;
   margin-left: 26px;
 }
 
-.footer-social-item:hover {
+.footer-social-item:hover,
+.footer-social-item:focus {
   color: #68A2CA;
 }
 
@@ -628,7 +637,8 @@ body {
   width: 331px;
 }
 
-.contacts-phone:hover {
+.contacts-phone:hover,
+.contacts-phone:focus {
   color: #756157;
 }
 
@@ -636,9 +646,11 @@ body {
 .footer-contacts-HTML {
   margin-top: 49px;
   margin-left: auto;
+  padding-right: 70px;
 }
 
-.footer-contacts-HTML:hover {
+.footer-contacts-HTML:hover,
+.footer-contacts-HTML:focus {
   color: #756157;
 }
 
@@ -764,7 +776,8 @@ body {
   margin-right: 70px;
 }
 
-.button-use:hover {
+.button-use:hover,
+.button-use:focus {
   background-color: #68A2CA;
 }
 
@@ -926,7 +939,8 @@ body {
   border-radius: 4px;
 }
 
-.button-first:hover {
+.button-first:hover,
+.button-first:focus {
   background-color: #615048;
 }
 
@@ -946,7 +960,8 @@ body {
   border-radius: 4px;
 }
 
-.button-second:hover {
+.button-second:hover,
+.button-second:focus {
   background-color: #68A2CA;
 }
 
@@ -966,7 +981,8 @@ body {
   border-radius: 4px;
 }
 
-.button-third:hover {
+.button-third:hover,
+.button-third:focus {
   background-color: #6C9E42;
 }
 
@@ -983,9 +999,8 @@ body {
   line-height: 20px;
   width: 120px;
   border-radius: 4px;
-
-
-
+  margin-left: auto;
+  margin-right: 35px;
 }
 
 
@@ -994,6 +1009,11 @@ body {
   display: flex;
   background-color: #FFFFFF;
   padding-top: 96px;
+}
+
+.pagination-select-control-page::before {
+  border: 1px solid #E6E6E6;
+  width: 1200px;
 
 }
 
@@ -1026,7 +1046,8 @@ body {
   color: #FFFFFF;
 }
 
-.button-pagination-link:hover {
+.button-pagination-link:hover,
+.button-pagination-link:focus {
   background-color: #68A2CA;
 }
 
@@ -1049,14 +1070,13 @@ body {
   border-radius: 4px;
 }
 
-.separation-pages:hover {
+.separation-pages:hover,
+.separation-pages:focus {
   border: 2px solid #82B3D3;
 }
 
 
 .newsletter-catalog {
-
-
   background-color: #FFFFFF;
   text-align: center;
   color: #000000;
