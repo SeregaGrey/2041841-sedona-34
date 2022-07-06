@@ -647,16 +647,15 @@ body {
 
 .footer-contacts-HTML {
  background-image: url('../images/html-academy.svg');
+ position: relative;
 }
 
 .footer-contacts-HTML::before {
   content: "";
   display: block;
-  background-repeat: no-repeat;
-  width: 45px;
-  margin-top: 49px;
-  margin-right: 70px;
-  margin-left: auto;
+  position: absolute;
+  
+  
   color: #000000;
 }
 
