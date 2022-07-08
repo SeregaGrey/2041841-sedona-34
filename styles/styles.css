@@ -657,10 +657,8 @@ body {
   margin-right: 70px;
 }
 
-.footer-contacts-HTML:hover,
-.footer-contacts-HTML:focus {
-  color: #756157;
-}
+.footer-logo-HTML:hover svg {fill: #756157}
+  
 
 
 
