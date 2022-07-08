@@ -644,19 +644,17 @@ body {
   color: #756157;
 }
 
-
 .footer-contacts-HTML {
- background-image: url('../images/html-academy.svg');
- position: relative;
+  margin: auto;
+  margin-top: 50px;
+  margin-right: 70px;
+  
+  
 }
 
-.footer-contacts-HTML::before {
-  content: "";
-  display: block;
-  position: absolute;
-  
-  
-  color: #000000;
+.footer-logo-HTML {
+  margin-top: 40px;
+  margin-right: 70px;
 }
 
 .footer-contacts-HTML:hover,
